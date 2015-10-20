@@ -11,6 +11,7 @@ In your httpd.conf:
       AuthType Basic
       AuthName "My Protected Documents"
       Require valid-user
+      PerlSetEnv PLUGAUTH_URL http://localhost:3001
     </Location>
 
 # DESCRIPTION
@@ -24,7 +25,7 @@ your legacy Apache2 application.
 
 # AUTHOR
 
-Graham Ollis &lt;plicease@cpan.org>
+Graham Ollis <plicease@cpan.org>
 
 # COPYRIGHT AND LICENSE
 
