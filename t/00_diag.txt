@@ -4,4 +4,3 @@ Apache2::RequestUtil
 Module::Build
 PlugAuth::Client::Tiny
 Test::More
-constant
