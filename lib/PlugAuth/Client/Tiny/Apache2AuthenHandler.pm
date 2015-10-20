@@ -20,6 +20,7 @@ In your httpd.conf:
    AuthType Basic
    AuthName "My Protected Documents"
    Require valid-user
+   PerlSetEnv PLUGAUTH_URL http://localhost:3001
  </Location>
 
 =head1 DESCRIPTION
