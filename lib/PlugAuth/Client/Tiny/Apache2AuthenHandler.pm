@@ -45,7 +45,7 @@ sub handler
   my($status, $password) = $r->get_basic_auth_pw;
   return $status unless $status == Apache2::Const::OK;
 
-  my $auth = PlugAuth::Client::Tiny->new($ENV{PLUGAUTH_URL});
+  my $auth = PlugAuth::Client::Tiny->new(url => $ENV{PLUGAUTH_URL});
 
   if($auth->auth($r->user, $password))
   {
