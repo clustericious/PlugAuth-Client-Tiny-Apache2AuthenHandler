@@ -32,6 +32,10 @@ your legacy Apache2 application.
 
 =over 4
 
+=item L<PlugAuth::Client::Tiny::Apache2AuthzHandler>
+
+For authorization.
+
 =item L<PlugAuth>
 
 Server to authenticate against.
