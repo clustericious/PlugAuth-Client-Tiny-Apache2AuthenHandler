@@ -56,15 +56,8 @@ eval {
     ($self->{status}, $self->{pass});
   }
   
-  sub user
-  {
-    shift->{user};
-  }
-  
-  sub note_basic_auth_failure
-  {
-    shift->{fail} = 1;
-  }
+  sub user                    { shift->{user} }
+  sub note_basic_auth_failure { shift->{fail} = 1 }
   
   $INC{'Apache2/RequestReq.pm'} = __FILE__;
 };
