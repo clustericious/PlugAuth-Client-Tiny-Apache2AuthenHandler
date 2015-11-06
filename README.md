@@ -23,9 +23,19 @@ your legacy Apache2 application.
 
 - [PlugAuth](https://metacpan.org/pod/PlugAuth)
 
+    Server to authenticate against.
+
+- [PlugAuth::Client::Tiny](https://metacpan.org/pod/PlugAuth::Client::Tiny)
+
+    Simplified PlugAuth client.
+
+- [Alien::Apache24](https://github.com/plicease/Alien-Apache24)
+
+    For testing
+
 # AUTHOR
 
-Graham Ollis <plicease@cpan.org>
+Graham Ollis &lt;plicease@cpan.org>
 
 # COPYRIGHT AND LICENSE
 

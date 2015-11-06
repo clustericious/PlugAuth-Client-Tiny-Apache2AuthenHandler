@@ -34,6 +34,16 @@ your legacy Apache2 application.
 
 =item L<PlugAuth>
 
+Server to authenticate against.
+
+=item L<PlugAuth::Client::Tiny>
+
+Simplified PlugAuth client.
+
+=item L<Alien::Apache24|https://github.com/plicease/Alien-Apache24>
+
+For testing
+
 =back
 
 =cut
