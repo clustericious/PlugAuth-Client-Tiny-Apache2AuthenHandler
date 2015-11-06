@@ -65,6 +65,8 @@ eval {
   {
     shift->{fail} = 1;
   }
+  
+  $INC{'Apache2/RequestReq.pm'} = __FILE__;
 };
 
 die $@ if $@;
