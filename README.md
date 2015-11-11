@@ -21,6 +21,10 @@ your legacy Apache2 application.
 
 # SEE ALSO
 
+- [PlugAuth::Client::Tiny::Apache2AuthzHandler](https://metacpan.org/pod/PlugAuth::Client::Tiny::Apache2AuthzHandler)
+
+    For authorization.
+
 - [PlugAuth](https://metacpan.org/pod/PlugAuth)
 
     Server to authenticate against.
