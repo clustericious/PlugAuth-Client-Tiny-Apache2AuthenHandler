@@ -16,8 +16,16 @@ In your httpd.conf:
 
 # DESCRIPTION
 
-This module provides an PlugAuth authentication (via [PlugAuth::Tiny](https://metacpan.org/pod/PlugAuth::Tiny)) for
-your legacy Apache2 application.
+This module provides PlugAuth authentication (via [PlugAuth::Tiny](https://metacpan.org/pod/PlugAuth::Tiny)) for your legacy Apache2
+application.
+
+# ENVIRONMENT
+
+## PLUGAUTH\_URL
+
+    PerlSetEnv PLUGAUTH_URL http://localhost:3001
+
+Specifies the URL for the PlugAuth server to authenticate against.
 
 # SEE ALSO
 

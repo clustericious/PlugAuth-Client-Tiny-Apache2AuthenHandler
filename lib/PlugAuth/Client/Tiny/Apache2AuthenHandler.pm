@@ -26,8 +26,16 @@ In your httpd.conf:
 
 =head1 DESCRIPTION
 
-This module provides an PlugAuth authentication (via L<PlugAuth::Tiny>) for
-your legacy Apache2 application.
+This module provides PlugAuth authentication (via L<PlugAuth::Tiny>) for your legacy Apache2
+application.
+
+=head1 ENVIRONMENT
+
+=head2 PLUGAUTH_URL
+
+ PerlSetEnv PLUGAUTH_URL http://localhost:3001
+
+Specifies the URL for the PlugAuth server to authenticate against.
 
 =head1 SEE ALSO
 
