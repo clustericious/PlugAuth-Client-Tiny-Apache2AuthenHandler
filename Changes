@@ -2,6 +2,9 @@ Revision history for {{$dist->name}}
 
 {{$NEXT}}
 
+0.04      2015-11-11 13:24:55 -0500
+  - Document all public interfaces
+
 0.03      2015-11-11 10:37:51 -0500
   - Fixed bug where if Apache2::RequestRec wasn't
     already loaded the handler would crash
