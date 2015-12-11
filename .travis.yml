@@ -3,7 +3,7 @@ sudo: false
 
 install:
   - perlbrew list
-  - cpanm https://dist.wdlabs.com/Alien-Apache24-0.05.tar.gz
+  - cpanm https://dist.wdlabs.com/Alien-Apache24-0.05.tar.gz -v
   - alien-apache24-install-mod_perl
   - dzil authordeps --missing | cpanm -n
   - dzil listdeps --missing | cpanm -n
